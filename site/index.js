@@ -26,23 +26,24 @@ else{
     seuIMC.innerHTML = `${IMC}` 
 
     if(IMC < 18,5){
-        console.log('Magreza / Obesidade: 0')
+        situation.innerHTML= 'Magreza'
+        obesity.innerHTML = '0'
     }else if(IMC >=18.5 && IMC <25)
     {
-        console.log('Normal / Obesidade: 0')
+        situation.innerHTML= 'Normal'
+         obesity.innerHTML = '0'
     }else if(IMC >= 25 && IMC < 30)
     {
-        console.log('Sobrepeso / Obesidade: I')
+        situation.innerHTML = 'Sobrepeso'
+        obesity.innerHTML = 'I'
     }else if(IMC >= 30 && IMC  <40)
     {
-        console.log('Obesidade Grave / obesidade III')
+        situation.innerHTML = 'Obesidade'
+        obesity.innerHTML = 'II'
+    }else{
+        situation.innerHTML= 'Obesidade grave'
+        obesity.innerHTML= 'III'
     }
 }
-    //let weight = Number(inputPeso.value)
-    //let height = Number(inputAltura.value)
-   // let total = weight/ (height*height)
-    //let IMC = total.toFixed(2).replace('.',',')
-
-    //seuIMC.innerHTML = `${IMC}`
    
 }
