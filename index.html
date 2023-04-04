@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora IMC</title>
+	<link rel="stylesheet" href="asset/IMC.css">
+	<script src="asset/index.js"></script>
+</head>
+<body>
+	<div class="tabela-btn">
+		<a href="tabela.html"><input type="button" value="Ver Tabela de IMC" id="table"></a>
+	</div>
+	
+	<div class="container">
+		<div class="container-IMC">
+			<h1>Calculadora <span style="color:#F9A826 ;">IMC</span></h1>
+			<div class="input">
+				<label for="peso">Peso(<span style="color:#F9A826 ;">kg</span>)</label>
+				<input type="number" placeholder="68" id="peso">
+
+				<label for="altura">Altura (<span style="color:#F9A826 ;">m</span>)</label>
+				<input type="number" placeholder="1,60" id="altura">
+			</div><!--closing div "input"-->
+			<div class="resultado">
+				<p>Seu IMC: <span style="color: #F9A826;" id="IMC"></span></p>
+			</div>
+			<button onclick="calcular()">Calcular</button>
+		</div><!--closing container IMC-->
+		<div class="article">
+			<img src="asset/image/undraw_working_out_re_nhkg (2).svg" alt="woman">
+		</div><!--closing article-->
+	</div><!--closing div "Container"-->
+</body>
+</html>
