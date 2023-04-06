@@ -143,7 +143,10 @@ td{
  body{
     overflow-x: hidden;
  }   
-.article{
-    display: none;
-}
+ .article{
+ display: none;
+ }
+ .tabela-IMC{
+    overflow-x: hidden;
+ }
 }
