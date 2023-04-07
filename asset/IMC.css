@@ -147,6 +147,22 @@ td{
  display: none;
  }
  .tabela-IMC{
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
     overflow-x: hidden;
  }
+ tabela{
+    width: 250px;
+    height: 300px; 
+ }
+ #table{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background: #F9A826;
+    box-shadow: 1px 6px 8px rgba(0, 0,0, .5);
+}
 }
