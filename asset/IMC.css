@@ -152,7 +152,7 @@ td{
     overflow-x: hidden;
  }
  table{
-    width: 450px;
+    width: 500px;
     height: 300px; 
  }
  #table{
@@ -165,7 +165,7 @@ td{
     box-shadow: 1px 6px 8px rgba(0, 0,0, .5);
 }
 }
-@media screen and(max-width: 390px){
+@media screen and (max-width: 390px){
 .tabela-IMC{
 margin-top: 20px;
 width: 500px;
