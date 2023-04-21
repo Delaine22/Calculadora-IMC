@@ -9,9 +9,6 @@
 	<script src="asset/index.js"></script>
 </head>
 <body>
-	<div class="tabela-btn">
-		<a href="tabela.html"><input type="button" value="Ver Tabela de IMC" id="table"></a>
-	</div>
 	
 	<div class="container">
 		<div class="container-IMC">
@@ -26,7 +23,10 @@
 			<div class="resultado">
 				<p>Seu IMC: <span style="color: #F9A826;" id="IMC"></span></p>
 			</div>
-			<button onclick="calcular()">Calcular</button>
+			<div class="btn">
+				<button onclick="calcular()">Calcular</button>
+				<a href="tabela.html"><input type="button" value="Ver a tabela IMC" id="imcbtn"></a>
+			</div>
 		</div><!--closing container IMC-->
 		<div class="article">
 			<img src="asset/image/undraw_working_out_re_nhkg (2).svg" alt="woman">
