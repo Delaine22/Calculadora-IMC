@@ -151,7 +151,7 @@ td{
     height: 400px;
     overflow-x: hidden;
  }
- tabela{
+ table{
     width: 250px;
     height: 300px; 
  }
@@ -165,3 +165,8 @@ td{
     box-shadow: 1px 6px 8px rgba(0, 0,0, .5);
 }
 }
+/*@media screen and(max-widtg: 390px){
+.tabela-IMC::before{
+border: 0px solid transparent;
+}
+}*/
