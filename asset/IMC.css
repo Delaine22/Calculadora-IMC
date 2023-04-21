@@ -112,10 +112,10 @@ button:hover, #imcbtn:hover, #backbtn:hover{
 .tabela-IMC::before{
   content: "";
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   border: 50px solid transparent;
-  border-top: 50px solid #F9A826;
+  border-bottom: 50px solid #F9A826;
   border-left: 50px solid #F9A826;
 }
 table{
@@ -173,12 +173,9 @@ overflow-x: hidden;
 box-shadow: none;
  }
 table{
-width: 350px;
+width: 370px;
 height: 300px;
 margin-top: 10px;
 margin-bottom: 10px;
-}
-.tabela-IMC::before{
-display: none;
 }
 }
