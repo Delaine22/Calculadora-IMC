@@ -168,12 +168,13 @@ td{
 @media screen and (max-width: 390px){
 .tabela-IMC{
 margin-top: 20px;
-width: 500px;
-height: 300px;
+width: 400px;
 overflow-x: hidden;
  }
 table{
-width: 300px;
-height: 200px;
+width: 350px;
+height: 250px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 }
