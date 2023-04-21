@@ -170,10 +170,11 @@ td{
 margin-top: 20px;
 width: 400px;
 overflow-x: hidden;
+box-shadow: none;
  }
 table{
 width: 350px;
-height: 250px;
+height: 300px;
 margin-top: 10px;
 margin-bottom: 10px;
 }
